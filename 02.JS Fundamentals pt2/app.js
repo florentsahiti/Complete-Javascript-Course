@@ -257,45 +257,53 @@
 
 
 ////////// OBJECT METHOD ////////////////
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    birthYear: 1991,
-    job: 'teacher',
-    friends: ['Micheal', 'Peter', 'Steven'],
-    hasDriversLicense: true,
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Micheal', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
 
-    // calcAge: function(birthYear){
-    //     return 2037 - birthYear;
-    // }
-    //  calcAge: function(){
+//     // calcAge: function(birthYear){
+//     //     return 2037 - birthYear;
+//     // }
+//     //  calcAge: function(){
 
-    //     return 2037 - this.birthYear;
-    // }
+//     //     return 2037 - this.birthYear;
+//     // }
 
-      calcAge: function(){
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
+//       calcAge: function(){
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
 
-    getSummary: function(){
-        return  `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's licencse`
-    }
+//     getSummary: function(){
+//         return  `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's licencse`
+//     }
 
-};
+// };
 
-console.log(jonas.calcAge());
+// console.log(jonas.calcAge());
 
-console.log(jonas.age);
-console.log(jonas.age);
-console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
 
 
-///CHALLENGE
-//"Jonas is a 46-year old teacher, and he has a driver's license";
-console.log(jonas.getSummary());
+// ///CHALLENGE
+// //"Jonas is a 46-year old teacher, and he has a driver's license";
+// console.log(jonas.getSummary());
 
 
 
 
 /////// FOR LOOP /////////
+// for loop keeps running while condition is TRUE
+// for(let rep = 1; rep <= 10; rep++){
+//     console.log(`Lifting weights repetiton  ${rep}`);
+// }
+
+
+
+////// Looping Arrays, Breaking and Continuing ///////

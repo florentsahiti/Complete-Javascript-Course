@@ -106,24 +106,34 @@ const percentageOfWorld = (population) => {
 
 
 // Object methaod
-const myCountry = {
-    country: "Kosova",
-    capital: "Prishtina",
-    Language: "Shqip",
-    Population: 1.8,
-    Neighbours: ["Shqiperia", "Maqedonia", "Mali i zi"],
+// const myCountry = {
+//     country: "Kosova",
+//     capital: "Prishtina",
+//     Language: "Shqip",
+//     Population: 1.8,
+//     Neighbours: ["Shqiperia", "Maqedonia", "Mali i zi"],
 
-    describe: function(){
-        return `${this.country} has ${this.Population} milion people`
-    },
+//     describe: function(){
+//         return `${this.country} has ${this.Population} milion people`
+//     },
 
-    checkIsIsland: function(){
-        this.isIsland;
-        return `${this.Neighbours === 0 ? true : false }`;
-    }
+//     checkIsIsland: function(){
+//         this.isIsland;
+//         return `${this.Neighbours === 0 ? true : false }`;
+//     }
         
+// }
+
+
+// console.log(myCountry.checkIsIsland());
+// console.log(myCountry.describe());
+
+
+//The for loop
+//1. There are elections in your country! In a small town, there are only 50 voters. 
+// Use a for loop to simulate the 50 people voting, by logging a string like this to 
+// the console (for numbers 1 to 50): 'Voter number 1 is currently voting
+
+for( let voters = 1; voters <= 50; voters++){
+    console.log(`Voter Number ${voters} is currently voting`)
 }
-
-
-console.log(myCountry.checkIsIsland());
-console.log(myCountry.describe());

@@ -134,6 +134,22 @@ const percentageOfWorld = (population) => {
 // Use a for loop to simulate the 50 people voting, by logging a string like this to 
 // the console (for numbers 1 to 50): 'Voter number 1 is currently voting
 
-for( let voters = 1; voters <= 50; voters++){
-    console.log(`Voter Number ${voters} is currently voting`)
-}
+// for( let voters = 1; voters <= 50; voters++){
+//     console.log(`Voter Number ${voters} is currently voting`)
+// }
+
+
+// Developer skills and editor setup
+const data1 = [17, 21, 23];
+const data2 = [12, 5, -5, 0, 4];
+
+
+const printForecast = function(arr){
+    let str = '';
+    for(let i = 0; i<arr.length; i++){
+        str = str + `${arr[i]}C in ${i + 1} days ... `
+    }
+    console.log('...'  +  str)
+} 
+
+printForecast(data1);

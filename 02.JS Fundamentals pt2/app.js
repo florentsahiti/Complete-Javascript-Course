@@ -1,11 +1,11 @@
 'use strict';
 
-/////// ACTIVATING STRICT MODE ////////
+///// ACTIVATING STRICT MODE ////////
 // let hasDriversLicense = false;
 // const passTest = true;
 
 // if(passTest){
-//     hasDriverLicense = true;
+//     hasDriversLicense = true;
 // }
 // if(hasDriversLicense){
 //     console.log("I can drive :D");
@@ -17,28 +17,30 @@
 
 
 
-/////// FUNCTIONS //////////
-// function logger(){
-//     console.log("My name is Jonas");
-// }
+///// FUNCTIONS //////////
+function logger(){
+    console.log("My name is Jonas");
+}
 
-// //calling / running / invoking function
-// logger();
-// logger();
-// logger();
+//calling / running / invoking function
+logger();
+logger();
+logger();
 
 
-// function fruitProcessor(apples, orange){
-//     const juice = `Juice with ${apples} apples and ${orange} oranges.`;
-//     return juice;
-// }
+function fruitProcessor(apples, orange){
+    const juice = `Juice with ${apples} apples and ${orange} oranges.`;
+    return juice;
+}
 
-// const appleJuice = fruitProcessor(5, 0);
-// console.log(appleJuice);
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
 
-// const appleOrangeJuice = fruitProcessor(2, 4)
-// console.log(appleOrangeJuice);
+const appleOrangeJuice = fruitProcessor(2, 4)
+console.log(appleOrangeJuice);
 
+const orangeJuice = fruitProcessor(0, 5)
+console.log(orangeJuice)
 
 
 
@@ -388,18 +390,18 @@
 //     console.log(`Lifting weights repetiton  ${rep}`);
 // }
  
-let rep = 1
-while (rep <=10){
-    console.log(`Lifting weights repetiton  ${rep}`);
-    rep++;
-}
+// let rep = 1
+// while (rep <=10){
+//     console.log(`Lifting weights repetiton  ${rep}`);
+//     rep++;
+// }
 
 
-let dice = Math.trunc(Math.random() * 6) + 1;
+// let dice = Math.trunc(Math.random() * 6) + 1;
 
 
-while (dice !== 6){
-    console.log(`You rolled a ${dice}`);
-    dice = Math.trunc(Math.random() * 6) + 1;
-    if(dice=== 6) console.log('Loop is about to end')
-}
+// while (dice !== 6){
+//     console.log(`You rolled a ${dice}`);
+//     dice = Math.trunc(Math.random() * 6) + 1;
+//     if(dice=== 6) console.log('Loop is about to end')
+// }

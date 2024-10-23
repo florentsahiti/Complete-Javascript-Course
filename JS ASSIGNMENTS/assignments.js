@@ -1,6 +1,6 @@
 'use strict'
 
-///// functions ////////
+// /// functions ////////
 // function describeCountry(country, population, capitalCity){ 
 //     return `${country} has ${population} milion people and its capital city is ${capitalCity}`
      
@@ -153,3 +153,7 @@ const printForecast = function(arr){
 } 
 
 printForecast(data1);
+
+
+
+  

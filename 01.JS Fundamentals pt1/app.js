@@ -42,6 +42,8 @@ console.log(populations);
 // console.log(language);
 
 
+
+
 ///////////LET VAR AND CONST//////////////
 // let age = 30;
 // age = 31;
@@ -138,6 +140,36 @@ console.log(populations);
 //     const yearsLeft = 18 - age;
 //     console.log(`Sarah is too young wait another ${yearsLeft} years;`)
 // }
+
+
+// // Defino popullsinë e Kosovës
+let popullsiaKosoves = 1.8; // në milionë
+
+// Kontrollo nëse popullsia është mbi ose nën 33 milionë
+// if (popullsiaKosoves > 33) {
+//     console.log("Popullsia e Kosovës është mbi mesatare");
+// } else {
+//     console.log("Popullsia e Kosovës është për 30 milionë më poshtë mesatares");
+// }
+
+// // Ndrysho popullsinë në 130 dhe shiko rezultatin
+// popullsiaKosoves = 130;
+
+// if (popullsiaKosoves > 33) {
+//     console.log("Popullsia e Kosovës është mbi mesatare");
+// } else {
+//     console.log("Popullsia e Kosovës është për 30 milionë më poshtë mesatares");
+// }
+
+// // Ktheje popullsinë në vlerën origjinale
+// popullsiaKosoves = 1.8;
+
+// if (popullsiaKosoves > 33) {
+//     console.log("Popullsia e Kosovës është mbi mesatare");
+// } else {
+//     console.log("Popullsia e Kosovës është për 30 milionë më poshtë mesatares");
+// }
+
 
 
 // const birthYear = 1991;
@@ -271,6 +303,30 @@ console.log(populations);
 //         console.log('Not a valid day');
 
 // }
+// let language = 'spanish'; // Ndrysho këtë vlerë për të provuar gjuhë të tjera
+
+// switch (language) {
+//     case 'chinese':
+//     case 'mandarin':
+//         console.log('MOST number of native speakers!');
+//         break;
+//     case 'spanish':
+//         console.log('2nd place in number of native speakers');
+//         break;
+//     case 'english':
+//         console.log('3rd place');
+//         break;
+//     case 'hindi':
+//         console.log('Number 4');
+//         break;
+//     case 'arabic':
+//         console.log('5th most spoken language');
+//         break;
+//     default:
+//         console.log('Great language too!');
+//         break;
+// }
+
 
 
 /////////// conditional ternary operator //////////

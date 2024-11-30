@@ -40,6 +40,8 @@ const percentageOfWorld = (population) => {
     return (population / 7900) * 100
 }
 
+//test test
+
 
 // function describePopulation(country, population){
 //     return `${country} has ${population} million people which is about ${percentageOfWorld(1440)} % of the world population`;

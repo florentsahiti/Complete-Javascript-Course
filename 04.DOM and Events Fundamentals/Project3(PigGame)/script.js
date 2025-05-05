@@ -23,7 +23,7 @@ btnRoll.addEventListener('click', function(){
         diceEl.src = `img/dice-${dice}.png`;
 
 
-    //3. Check for rolled 1: If true switch to next player
+    //3. Check for rolled 1: If true switch to next playe
 
 })
 
